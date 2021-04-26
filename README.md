@@ -1,24 +1,24 @@
-# itemtouchhelper-extension
+# itemtouchhelper-extension.
 This library add something for swipe item settling, recover base on the [Itemtouchhelper](https://developer.android.com/reference/android/support/v7/widget/helper/ItemTouchHelper.html).
 
 This used in the repo [code-reader](https://github.com/loopeer/code-reader)
 
 [Download Sample](https://github.com/loopeer/itemtouchhelper-extension/releases/tag/1.0.0)
 
-Screenshot
+Screenshot.
 ====
-### item swipe with spring  
+### item swipe with spring.  
 
 ![](/screenshot/itemtouch_spring.gif)   
 
-### item swipe with no spring  
+### item swipe with no spring.  
 
 ![](/screenshot/itemtouch_nospring.gif)  
-### item swipe with recycler view width  
+### item swipe with recycler view width.  
 
 ![](/screenshot/itemtouch_recycler_width.gif)   
 
-Installation
+Installation.
 ====
 ```groovy
 dependencies {
@@ -65,7 +65,7 @@ public float getActionWidth() {
 ```
 This will use whole recyclerview width when you do not add the width
 
-Additional Drag Feature
+Additional Drag Feature.
 ====
 If you want to add drag item feature.You just do **super.onChildDraw** in method onChildDraw of the class **ItemTouchHelperCallback**. Just like bottom:
 ```java
@@ -76,7 +76,7 @@ If you want to add drag item feature.You just do **super.onChildDraw** in method
     }
 ```
 
-Click Action Button To Close Opened
+Click Action Button To Close Opened.
 ====
 If you want to close item after click action btn in the swipe item. You show add
 ```java
